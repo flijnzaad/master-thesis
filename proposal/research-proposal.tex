@@ -1,0 +1,54 @@
+%TC:macro \todo [ignore]
+\documentclass{article}
+\usepackage[margin=1.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{tgpagella}
+
+\usepackage[
+    style=authoryear,
+    maxbibnames=99,
+    natbib
+]{biblatex}
+\addbibresource{../literature.bib}
+\newcommand{\poscite}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+\usepackage{csquotes}
+% to make for example the references clickable
+\usepackage{hyperref}
+% puts the relevant thing in front of the reference, if you use \cref{...}
+\usepackage[capitalize, noabbrev]{cleveref}
+
+\DeclareCiteCommand{\citeyear}
+    {}
+    {\bibhyperref{\printdate}}
+    {\multicitedelim}
+    {}
+
+\DeclareRobustCommand{\VAN}[3]{#2}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[L]{Master of Logic -- thesis \\ Research proposal}
+\fancyhead[R]{Flip Lijnzaad \\ \today}
+\setlength{\headheight}{23pt}
+
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{todonotes}
+\usepackage{gb4e}
+
+\title{Thesis title}
+\author{Flip Lijnzaad}
+\date{\today}
+
+\begin{document}
+
+\section*{\centering Do we reason in order to communicate?}
+\subsection*{\centering Exploring the evolutionary relation between reasoning and communication}
+
+\nocite{*}
+\printbibliography[title=Preliminary bibliography]
+
+\end{document}
