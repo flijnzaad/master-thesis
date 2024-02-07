@@ -1,0 +1,48 @@
+%TC:macro \todo [ignore]
+\documentclass{report}
+\usepackage[margin=1.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+% FONTS
+\usepackage{tgpagella}
+
+% BIB MANAGEMENT
+\usepackage[
+    style=authoryear,
+    maxbibnames=99,
+    giveninits,
+    natbib
+]{biblatex}
+\addbibresource{bibliography.bib}
+\newcommand{\poscite}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+\usepackage{hyperref}
+\usepackage[capitalize, noabbrev]{cleveref}
+\DeclareCiteCommand{\citeyear}
+    {}
+    {\bibhyperref{\printdate}}
+    {\multicitedelim}
+    {}
+\DeclareRobustCommand{\VAN}[3]{#2}
+
+% STANDARD PACKAGES I USE
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{todonotes}
+\usepackage{gb4e}
+
+\title{Thesis title}
+\author{Flip Lijnzaad \\ Supervisor: Karolina Krzy\.{z}anowska}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\input{chapters/0_introduction.tex}
+\input{chapters/1_methodology.tex}
+
+\printbibliography
+
+\end{document}
