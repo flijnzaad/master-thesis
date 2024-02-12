@@ -14,7 +14,7 @@
 
 % BIB MANAGEMENT
 \usepackage[
-    style=authoryear,
+    style=authoryear-comp,
     maxbibnames=99,
     giveninits,
     natbib
@@ -23,6 +23,7 @@
 \newcommand{\poscite}[1]{\citeauthor{#1}'s (\citeyear{#1})}
 \usepackage{hyperref}
 \usepackage[capitalize, noabbrev]{cleveref}
+\usepackage[left]{showlabels}
 \DeclareCiteCommand{\citeyear}
     {}
     {\bibhyperref{\printdate}}
@@ -43,7 +44,7 @@
 
 \begin{document}
 
-\maketitle
+% \maketitle
 
 \input{chapters/0_introduction.tex}
 \input{chapters/1_methodology.tex}
