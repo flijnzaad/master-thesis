@@ -17,6 +17,8 @@
 \usepackage[
     style=authoryear-comp,
     maxbibnames=99,
+    maxcitenames=2,
+    uniquelist=false,
     giveninits,
     natbib
 ]{biblatex}
@@ -31,6 +33,11 @@
     {\multicitedelim}
     {}
 \DeclareRobustCommand{\VAN}[3]{#2}
+
+\usepackage[
+    indentfirst=false,
+    font=small
+]{quoting}
 
 % STANDARD PACKAGES I USE
 \usepackage{csquotes}
