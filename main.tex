@@ -24,7 +24,7 @@
 ]{biblatex}
 \addbibresource{literature/bibliography.bib}
 \newcommand{\poscite}[1]{\citeauthor{#1}'s (\citeyear{#1})}
-\usepackage{hyperref}
+% \usepackage{hyperref}
 \usepackage[capitalize, noabbrev]{cleveref}
 \usepackage[left]{showlabels}
 \DeclareCiteCommand{\citeyear}
@@ -43,10 +43,18 @@
 \usepackage{csquotes}
 \usepackage{enumitem}
 \usepackage{multicol}
-\usepackage[textsize=footnotesize, color=orange]{todonotes}
-% specific todo commands for points of revision
-\newcommand{\smallTodo}[1]{\todo[color=green!80]{#1}}
-\newcommand{\largeTodo}[1]{\todo[inline, color=yellow]{#1}}
+
+% TODONOTES
+\usepackage[
+    textsize=footnotesize,
+    color=orange,
+    colorinlistoftodos,
+    ]{todonotes}
+% specific commands for points of revision
+\newcounter{todocounter}
+\newcommand{\smallTodo}[1]{\stepcounter{todocounter} \todo[color=green!80]{\thetodocounter: #1}}
+\newcommand{\largeTodo}[1]{\stepcounter{todocounter} \todo[inline, color=yellow]{\thetodocounter: #1}}
+
 \usepackage{gb4e}
 
 \title{The "why" of human reasoning and communication:
@@ -58,6 +66,8 @@ Cognitive capacities through the lens of evolution}
 \begin{document}
 
 \maketitle
+
+\listoftodos
 
 \input{chapters/0_introduction.tex}
 \input{chapters/1_methodology.tex}
