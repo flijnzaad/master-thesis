@@ -43,9 +43,10 @@
 \usepackage{csquotes}
 \usepackage{enumitem}
 \usepackage{multicol}
-\usepackage[textsize=footnotesize]{todonotes}
-\newcommand{\smalltodo}[1]{\todo[color=green!40]{#1}}
-\newcommand{\largetodo}[1]{\todo[inline, size=\normalsize]{#1}}
+\usepackage[textsize=footnotesize, color=orange]{todonotes}
+% specific todo commands for points of revision
+\newcommand{\smallTodo}[1]{\todo[color=green!80]{#1}}
+\newcommand{\largeTodo}[1]{\todo[inline, color=yellow]{#1}}
 \usepackage{gb4e}
 
 \title{The "why" of human reasoning and communication:
