@@ -1,5 +1,5 @@
 %TC:macro \todo [ignore]
-\documentclass[draft]{report}
+\documentclass{report}
 % \usepackage[margin=1.5in]{geometry}
 % \usepackage{geometry}
 \usepackage[utf8]{inputenc}
@@ -24,7 +24,7 @@
 ]{biblatex}
 \addbibresource{literature/bibliography.bib}
 \newcommand{\poscite}[1]{\citeauthor{#1}'s (\citeyear{#1})}
-% \usepackage{hyperref}
+\usepackage{hyperref}
 \usepackage[capitalize, noabbrev]{cleveref}
 \usepackage[left]{showlabels}
 \DeclareCiteCommand{\citeyear}
