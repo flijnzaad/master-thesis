@@ -114,32 +114,34 @@ In short, infants first acquire the skills and motivations needed for shared int
 
 \todo[inline]{This version of the section is not awful; it has to be revised a bit, but the general buildup looks pretty good.}
 
-\largeTodo{Make a terminological choice between aggressive and competitive, and be consistent in your usage of them (so also back in the phylogeny section); maybe even define them.}
-Finally, let us have a look at what the function of communication might be.
-We have already seen that we can broadly distinguish between competitive and cooperative functions of communication \citep{SeyfarthCheney03}.
-For competitive, or aggressive, motives, one might use communication to intimidate a rival in the competition for food or for a mate. It would be evolutionarily beneficial to the communicator to intimidate verbally rather than physically because of a reduced risk of injury.
+\largeTodo{Make a terminological choice between aggressive and competitive, and be consistent in your usage of them (so also back in the phylogeny section). Maybe even define them.}
+Finally, let us have a look at different conceptions of what the function of communication might be. We have already seen that we can broadly distinguish between competitive and cooperative functions of communication \citep{SeyfarthCheney03}.
+For competitive, or aggressive, motives, one might use communication for attempting to intimidate a rival in the competition for food or for a mate. It would be evolutionarily beneficial to the communicator to intimidate verbally rather than physically because of a reduced risk of injury.
 \smallTodo{Change around the way you reference it: maybe find multiple references for this theory, and then only the last finding is specifically from the 2021 paper. See notes}
-According to the theory of human self-domestication, a number of human traits can be explained by a process of \emph{self-domestication}, in which females select sexually for less aggressive males. It has been proposed that because of this reduction in physical aggression, interactions between individuals became longer and more frequent throughout evolutionary history, which allowed for our language and communication to become more complex \citep{Benitez21}.
+According to the theory of human self-domestication, a number of human traits can be explained by a process of 'self-domestication', in which females select sexually for less aggressive males. It has been proposed that because of this reduction in physical aggression, interactions between individuals became longer and more frequent throughout evolutionary history, which allowed for our language and communication to become more complex \citep{Benitez21}.
 
-As for the cooperative functions of communication: it is apparent that communication crucially enables individuals to cooperate and collaborate. Furthermore, more sophisticated communication would make more sophisticated forms of cooperation and collaboration possible, from coordinated hunting activities to the social institutions we depend on nowadays.
-\todo{Cite Tomasello on this?}
+As for the cooperative functions of communication, \citet{Tomasello08-origins} proposes three different motives underlying communication: sharing (of emotions and attitudes), informing, and requesting (help to achieve goals).
+
+\largeTodo{Explicate and elaborate more on this argument, because now it's not convincing. Cite some literature also on it, maybe Heyes 2018 or Tomasello 2009 talks about it}
+It is apparent that communication crucially enables individuals to cooperate and collaborate. In addition, more sophisticated communication would make more sophisticated forms of cooperation and collaboration possible, from coordinated hunting activities to the social institutions we depend on nowadays.
 \largeTodo{To what extent do animals participate in coordinated hunting activities? I remember reading about it, about monkeys launching a coordinated attack, was that in \citet{Tomasello09}? Find this reference}
-To appreciate the function of communication as facilitator of cooperation, let us now consider what makes cooperation and collaboration evolutionarily beneficial. Moreover, in order to complete the causal chain, we should have a look at how human cooperation could have sprung into existence somewhere along our evolutionary timeline.
+But in order for us to complete the causal chain, we need to have a look at what makes cooperation and collaboration something evolution has selected for at all.
 
 \subsection{Human cooperation and its evolution}
 
-\todo[inline]{Define cooperation vs. collaboration}
+In cooperative behaviors, one can distinguish between altruistic behavior (sacrificing something in some way for the benefit of another individual) and collaborative behavior (working together with another individual for mutual benefit) \citep{Tomasello09}. In the case of the latter, the evolutionary causation is straight-forward: the mutual benefit of the outcome constitutes the evolutionary pressure that has selected for it. In the case of the former though, it is not immediately obvious that helping another person without benefit to the self would be evolutionarily advantageous. \citet{Tomasello09} hypothesizes that altruism can be best explained in the broader picture of the social group, considering the norms that are enforced and being conformed to within the group and the shared intentionality inherent in the group.
+Moreover, he emphasizes the role of both human biology and human culture in shaping humans' cooperative tendencies; see also \cref{ch:evolution}.
+\smallTodo{Change the presentation of this last point around: if you want to mention it, then mention his arguments, the evidence he presents, because it's a bit devoid of content as it stands. Why is this relevant?}
 
-\todo[inline]{Is this paragraph still relevant and up-to-date?}
-In cooperative behaviors, one can distinguish between altruistic behavior (sacrificing something in some way for the benefit of another individual) and collaborative behavior (working together with another individual for mutual benefit) \citep{Tomasello09}. In the case of the latter, the evolutionary causation is more straight-forward: the mutual benefit of the outcome constitutes the evolutionary pressure that has selected for it. In the case of the former though, it is not immediately obvious that helping another person without benefit to the self would be evolutionarily advantageous. 
-\citet{Tomasello09} hypothesizes that altruism can be best explained in the broader picture of the social group, considering the norms that are enforced and being conformed to within the group and the shared intentionality inherent in the group.
+\todo[inline]{Also talk here about the dangers of misinformation, because this ties more directly into epistemic vigilance and such}
 
-% For reasons that will become clearer in \cref{ch:scrutiny}, it will also be useful to have a look at how human cooperation could have evolved at all.
+\todo[inline]{This is the new stuff (28/06)}
+For reasons that will become clearer in \cref{ch:scrutiny}, it will also be useful to have a look at how human cooperation could have evolved at all.
 Michael Tomasello argues that somewhere along the evolutionary timeline, humans must have been "put under some kind of selective pressure to collaborate in their gathering of food--they become obligate collaborators--in a way that their closest primate relatives were not" \citep[p.~75]{Tomasello09}. Notably, this selective pressure is a missing link in his otherwise very convincing story.
-Tomasello elaborates by noting that in general, evolution may select for sociality in animals because living together in a social group protects the group's members against predation: it is easier to defend oneself in the context of a group. The group however also brings disadvantages with it when it comes to foraging for food, since the group can produce competition for food amongst its members. This is especially the case when the source of food is 'clumped', such as in a prey animal, rather than dispersed, such as in a plain of grass. The clumped source of food raises the issue of how to share the food amongst the members of the social group.
+Tomasello elaborates by noting that in general, evolution can select for sociality in animals because living together in a social group protects its members against predation: it is easier to defend oneself in the context of a group. The group however also brings disadvantages with it when it comes to foraging for food, since the group can produce competition for food amongst its members. This is especially the case when the source of food is 'clumped', such as in a prey animal, rather than dispersed, such as in a plain of grass. The clumped source of food raises the issue of how to share the food amongst the members of the social group.
 Tomasello enumerates a number of different hypotheses to explain how humans could have broken out of "the great-ape pattern of strong competition for food, low tolerance for food sharing, and no food offering at all" \citep[p.~83]{Tomasello09}; in other words, how humans could have evolved to be more tolerant and trusting, and less competitive about food.
-Firstly, as (due to the aforementioned missing link) it became 'obligatory' for humans to forage collaboratively, it could have been evolutionarily advantageous to be more tolerant and less competitive, which would explain its having evolved.
-Secondly, it could be the case that humans went through a process of self-domestication, which eliminated aggressive, predatory or greedy individuals from the group. (See also \citet{Benitez21}.)
+Firstly, as (due to the aforementioned missing link) it became 'obligatory' for humans to forage collaboratively, it could have been evolutionarily advantageous to be more tolerant and less competitive, which would explains its having evolved.
+Secondly, it could be the case that huamns went through a process of self-domestication, which eliminated aggressive, predatory or greedy individuals from the group. (See also \citet{Benitez21}.)
 Thirdly, the evolution of tolerance and trust could be related to what is called cooperative breeding, where the responsibility of child-rearing falls on more individuals than just the mother of the child. This cooperative breeding may have selected for pro-social skills and motivations.
 
 Tolerance and trust then constitute a foundation upon which coordination and communication can be 'built', so to speak: they provide an environment in which more elaborate collaboration can evolve. In Tomasello's words,
@@ -149,11 +151,7 @@ Tolerance and trust then constitute a foundation upon which coordination and com
 \end{quoting}
 
 In order to then arrive at the full picture of human cooperative activity, the final step to consider is that of social norms and institutions. As before, there is a missing link in this story, of how mutual expectations between individuals arise and eventually become norms. (Tomasello describes it as "one of the most fundamental questions in all of the social sciences" (p. 89).)
-Norms may be defined as "socially agreed-upon and mutually known expectations bearing social force, monitored and enforced by third parties" \citep[p.~87]{Tomasello09}. Norms get their force not only through the threat of punishment by others if the norm is violated, but also a kind of social rationality within the collaborative (mutualistic) activity: individuals recognize their dependence on each other to reach their joint goal, and just as it would be individually irrational to act in a way that thwarts your own goal, it would be socially irrational to act in a way that thwarts your joint goal.
-
-Let us briefly summarize the evolutionary timeline of human cooperation according to Michael Tomasello.
-\todo[inline]{Fill this in}
-At some point, for reasons as of yet unknown to us, foraging for food collaboratively rather than individualistically became beneficial for humans. Somewhere 
+Norms may be defined as "socially agreed-upon and mutually known expectations bearing social force, monitored and enforced by third parties" \citep[.~87]{Tomasello09}. Norms get their force not only through the threat of punishment by others if the norm is violated, but also a kind of social rationality within the collaborative (mutualistic) activity: individuals recognize their dependence on each other to reach their joint goal, and just as it would be individually irrational to act in a way that thwarts your own goal, it would be socially irrational to act in a way that thwarts your joint goal.
 
 Now that we know a bit more about how human cooperation might have evolved, and how communication could have featured in it, we will segue into some foundational concepts for the argumentative theory of reasoning, that also relate to the evolution of communication, concerning specifically the stability of communication.
 
@@ -194,7 +192,6 @@ Notably however, he does not explicate how the first sufficient condition is met
 \subsection{Benefits and costs of (dis)honesty}
 
 \todo[inline]{This should be discussed somewhere; but where, and how?}
-\todo[inline]{Dangers of misinformation?}
 
 \subsection{Dan Sperber on the evolution of testimony and argumentation}
 
