@@ -24,7 +24,12 @@
 ]{biblatex}
 \addbibresource{literature/bibliography.bib}
 \newcommand{\poscite}[1]{\citeauthor{#1}'s (\citeyear{#1})}
-\usepackage{hyperref}
+\usepackage[final, %override "draft which means "do nothing"
+colorlinks, %rather than outlining them in boxes
+linkcolor=blue, %override truly awful colour choices
+citecolor=blue, %(ditto)
+urlcolor=blue, plainpages=false %(ditto)
+]{hyperref}
 \usepackage[capitalize, noabbrev]{cleveref}
 \usepackage[left]{showlabels}
 \DeclareCiteCommand{\citeyear}
