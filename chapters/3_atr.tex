@@ -41,14 +41,21 @@ Moreover, he concludes from his observations that
 \end{quoting}
 We return to this conclusion to criticize it in \cref{sec:comm-func-scrutiny}.
 
-Sperber goes on to cast his observations in game-theoretic terms by sketching out a payoff matrix for a one-off communicative event; see \cref{fig:matrix}.
+Sperber goes on to cast his observations in game-theoretic terms by sketching out a payoff matrix for a one-off communicative event; see \cref{tab:matrix}.
 
-\begin{figure}[ht]
+\begin{table}[ht]
     \centering
-    \includegraphics[width=\textwidth]{chapters/img/matrix-sperber.png}
-    \caption{Payoff matrix for one-off communicative event}
-    \label{fig:matrix}
-\end{figure}
+    \begin{tabular}{ccc|c}
+      \cline{3-4}
+      & & \multicolumn{2}{c}{\emph{addressee}} \\ \cline{3-4}
+      & & \textbf{trusting} & \textbf{distrusting} \\ \hline
+      \multirow{2}{*}{\emph{communicator}} &
+      \textbf{truthful} & gain/gain & loss/no gain \\ \cline{2-4}
+      & \textbf{untruthful} & gain/loss & loss/no gain \\ \hline
+    \end{tabular}
+    \caption{Payoff matrix for a one-off communicative event}
+    \label{tab:matrix}
+\end{table}
 
 In sketching out this scenario, he considers that senders may be truthful or untruthful, and receivers may be trusting or distrusting. According to Sperber, the sender's gain amounts to whether they have the 'desired' effect on the receiver; therefore, the sender gains from the interaction if the receiver is trusting (since this means the sender's message is accepted), and loses from the interaction if the receiver is distrusting. The payoff of this event for the sender is thus independent of the truthfulness of the sender. On the side of the receiver, their payoff \emph{is} dependent on the truthfulness of the sender: the receiver gains if they accept a truthful message, loses if they accept an untruthful message, and incurs no gain nor loss if they are distrusting and thus don't accept a message (truthful or not).
 
