@@ -14,6 +14,15 @@
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\huge\bfseries}
+\usepackage{fancyhdr}
+\fancypagestyle{mystyle}{
+    \fancyhead[R]{\small \leftmark}
+    \fancyhead[L]{}
+}
+\fancypagestyle{first}{
+    \fancyhead{}
+    \fancyhead[R]{\small CHAPTER 1. THE EVOLUTIONARY APPROACH}
+}
 
 % BIB MANAGEMENT
 \usepackage[
@@ -33,7 +42,7 @@ citecolor=blue, %(ditto)
 urlcolor=blue, plainpages=false %(ditto)
 ]{hyperref}
 \usepackage[capitalize, noabbrev]{cleveref}
-\usepackage[left]{showlabels}
+% \usepackage[left]{showlabels}
 \DeclareCiteCommand{\citeyear}
     {}
     {\bibhyperref{\printdate}}
@@ -59,6 +68,7 @@ urlcolor=blue, plainpages=false %(ditto)
     textsize=footnotesize,
     color=orange,
     colorinlistoftodos,
+    disable
     ]{todonotes}
 % specific commands for points of revision
 \newcounter{todocounter}
@@ -95,12 +105,18 @@ Caveats from the Evolution of Human Communication}
 
 \input{chapters/abstract.tex}
 
+\pagenumbering{roman}
+
+\pagestyle{mystyle}
+
 \tableofcontents
 
 \input{chapters/acknowledgements.tex}
 
 \input{chapters/0_introduction.tex}
+
 \input{chapters/1_methodology.tex}
+
 \input{chapters/2-0_communication.tex}
 \input{chapters/3_atr.tex}
 \input{chapters/4_scrutiny.tex}
