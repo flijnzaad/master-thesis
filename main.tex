@@ -1,5 +1,5 @@
 %TC:macro \todo [ignore]
-\documentclass{report}
+\documentclass[a4paper]{report}
 % \usepackage[margin=1.5in]{geometry}
 % \usepackage{geometry}
 \usepackage[utf8]{inputenc}
@@ -41,6 +41,13 @@ linkcolor=blue, %override truly awful colour choices
 citecolor=blue, %(ditto)
 urlcolor=blue, plainpages=false %(ditto)
 ]{hyperref}
+\hypersetup{
+    pdftitle = {A Critical Analysis of the Argumentative Theory of Reasoning:
+Caveats from the Evolution of Human Communication},
+    pdfsubject = {MSc Logic Thesis},
+    pdfauthor = {Flip Lijnzaad},
+    pdfkeywords = {communication, evolution, reasoning, synthetic philosophy}
+}
 \usepackage[capitalize, noabbrev]{cleveref}
 % \usepackage[left]{showlabels}
 \DeclareCiteCommand{\citeyear}
