@@ -1,0 +1,180 @@
+\documentclass[xcolor=table]{beamer}       % flush equations
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{ifthen}
+\usepackage{array}
+\usepackage{graphicx}               % picture support
+\usepackage{multicol}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows}
+\tikzstyle{arrow} = [thick,->,>=latex]
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {\tiny #1};}}
+
+% BIB MANAGEMENT
+\usepackage[
+    style=authoryear-comp,
+    maxbibnames=99,
+    maxcitenames=2,
+    uniquelist=false,
+    giveninits,
+    natbib
+]{biblatex}
+\addbibresource{../literature/bibliography.bib}
+\newcommand{\poscite}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+% \hypersetup{
+% colorlinks, %rather than outlining them in boxes
+% linkcolor=blue, %override truly awful colour choices
+% citecolor=blue, %(ditto)
+% urlcolor=blue
+% }
+
+\DeclareCiteCommand{\citeyear}
+    {}
+    {\bibhyperref{\printdate}}
+    {\multicitedelim}
+    {}
+
+\usepackage{xcolor}
+\definecolor{lightgray}{gray}{0.9}
+
+\usepackage[T1]{fontenc}
+
+% Fira Sans
+\usepackage[sfdefault, scaled=.85, light]{FiraSans}
+\usepackage{newtxsf}
+
+% enable \pause in align environment
+\makeatletter
+\let\save@measuring@true\measuring@true
+\def\measuring@true{%
+  \save@measuring@true
+  \def\beamer@sortzero##1{\beamer@ifnextcharospec{\beamer@sortzeroread{##1}}{}}%
+  \def\beamer@sortzeroread##1<##2>{}%
+  \def\beamer@finalnospec{}%
+}
+\makeatother
+
+% use colors
+\colorlet{fgblue}{blue!60!black}
+\colorlet{bgred}{red!60!black}
+\colorlet{fgred}{red!75!black}  % foreground must be brighter
+\colorlet{mygrey}{black!10}  % foreground must be brighter
+\newcommand{\red}[1]{\textcolor{fgred}{#1}}
+\newcommand{\blue}[1]{\textcolor{fgblue}{#1}}
+
+% use nice symbols
+\usepackage{fontawesome5}
+
+\mode<presentation>
+{
+    % general color theme:
+    \usetheme{Madrid}
+    \usecolortheme{beaver}
+    % title page:
+    \setbeamercolor   {title}     {bg=bgred, fg=white}
+    \setbeamertemplate{title page}[default][rounded=true]
+    % table of contents:
+    \setbeamertemplate{section in toc}   [sections numbered]
+    \setbeamertemplate{subsection in toc}[subsections numbered]
+    % general style:
+    \setbeamertemplate{navigation symbols}{} % no nav symbols
+    \setbeamercolor{frametitle}         {bg=bgred, fg=white}
+    \setbeamercolor{block title}        {bg=bgred, fg=white}
+    \setbeamercolor{block title example}{bg=black!80, fg=fgred}
+    \setbeamertemplate{blocks}[rounded] % blocks rounded, no shade
+    % \setbeamercovered{transparent}: use within frame if wanted
+    % lists:
+        % enumerate
+        \useinnertheme{rectangles}      % rectangular enumerate
+        \setbeamercolor{item projected}   {bg=bgred}
+        \setbeamercolor{enumerate item}   {bg=bgred, fg=white}
+        \setbeamercolor{enumerate subitem}{bg=bgred, fg=white}
+        % itemize
+        \setbeamercolor{itemize item}   {fg=bgred}
+        \setbeamercolor{itemize subitem}{fg=bgred}
+        \setbeamertemplate{itemize item}   {$\blacktriangleright$}
+        \setbeamertemplate{itemize subitem}{$\triangleright$}
+        % description
+        \setbeamercolor{description item}{fg=fgred}
+}
+
+% \AtBeginSection[]
+% {
+%     \begin{frame}
+%     \frametitle{Outline}
+%     \tableofcontents[hideothersubsections,currentsection]
+%     \end{frame}
+% }
+
+% \AtBeginSubsection[]
+% {
+%     \begin{frame}
+%     \frametitle{Outline}
+%     \tableofcontents[hideothersubsections,currentsection,currentsubsection]
+%     \end{frame}
+% }
+
+\usepackage{gb4e}
+
+% title, author, day
+\title{A Critical Analysis of the Argumentative Theory of Reasoning:}
+\subtitle{Caveats from the Evolution of Human Communication}
+\author{Flip Lijnzaad}
+\date{November 11, 2024}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Introduction}
+    
+\end{frame}
+
+\begin{frame}{Outline}
+    \tableofcontents
+\end{frame}
+
+\section{The stability of communication}
+
+\begin{frame}{The stability of communication}
+    
+\end{frame}
+
+\begin{frame}{The evolutionary arms race}
+    
+\end{frame}
+
+\section{Epistemic vigilance \& the ATR}
+
+\begin{frame}{\insertsection}
+    
+\end{frame}
+
+\section{The evolution of human communication}
+
+\begin{frame}{\insertsection}
+    
+\end{frame}
+
+\section{Criticizing the ATR}
+
+\begin{frame}{\insertsection}
+    
+\end{frame}
+
+\section{Conclusions}
+
+\begin{frame}{\insertsection}
+    
+\end{frame}
+
+\begin{frame}{Selected bibliography}
+    % \small
+    \nocite{Tomasello09}
+    \printbibliography
+\end{frame}
+
+\end{document}
