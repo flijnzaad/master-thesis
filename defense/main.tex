@@ -74,6 +74,15 @@
 % use nice symbols
 \usepackage{fontawesome5}
 
+\addtobeamertemplate{frametitle}{}
+{
+\begin{tikzpicture}[overlay,remember picture]
+\node[right=0.51cm, yshift=-0.49cm] at (current page.45){
+    \includegraphics[width=0.8cm]{../illclogo-cropped-1.pdf}
+};
+\end{tikzpicture}
+}
+
 \mode<presentation>
 {
     % general color theme:
@@ -126,14 +135,18 @@
 \usepackage{gb4e}
 
 % title, author, day
-\title[A Critical Analysis of the ATR]{A Critical Analysis of the Argumentative Theory of Reasoning:}
+\title[A Critical Analysis of the ATR]{A Critical Analysis of the Argumentative Theory of Reasoning}
 \subtitle{Caveats from the Evolution of Human Communication}
-\author{Flip Lijnzaad}
+\author[Flip Lijnzaad]{Flip Lijnzaad \\ \small Supervisor: Karolina Krzy\.{z}anowska}
 \date{November 11, 2024}
 
 \begin{document}
 
-\maketitle
+\begin{frame}{}
+    \centering
+    \includegraphics[width=0.5\textwidth]{../illclogo.pdf}
+    \maketitle
+\end{frame}
 
 \begin{frame}{Introduction}
     \begin{itemize}
@@ -147,7 +160,7 @@
     \end{itemize}
     \pause
     \begin{itemize}
-        \item 'Function' in evolution
+        \item 'Function' in evolution \footnotesize{\citep{Ayala99}}
             \begin{itemize}
                 \item Survival value
             \end{itemize}
@@ -162,15 +175,31 @@
 
 \begin{frame}{The stability of communication}
     \includegraphics[width=\textwidth]{img/stability-communication-1.png}
+
+    \vfill
+
+    \hfill \footnotesize{\citep{Scott-Phillips08}}
 \end{frame}
 \begin{frame}{The stability of communication}
     \includegraphics[width=\textwidth]{img/stability-communication-2.png}
+
+    \vfill
+
+    \hfill \footnotesize{\citep{Scott-Phillips08}}
 \end{frame}
 \begin{frame}{The stability of communication}
     \includegraphics[width=\textwidth]{img/stability-communication-3.png}
+
+    \vfill
+
+    \hfill \footnotesize{\citep{Scott-Phillips08}}
 \end{frame}
 \begin{frame}{The stability of communication}
     \includegraphics[width=\textwidth]{img/stability-communication-4.png}
+
+    \vfill
+
+    \hfill \footnotesize{\citep{Scott-Phillips08}}
 \end{frame}
 
 \begin{frame}{The evolutionary arms race}
@@ -178,13 +207,17 @@
     \begin{tabular}{ccc}
         \textbf{sender} & & \textbf{receiver} \\ \\
         gain through deceiving \\
-                        \pause & $\searrow$ & \\
-                        & & coherence checking; \\ & & epistemic vigilance \\
-                        \pause & $\swarrow$ \\
-                        coherence display: \\ producing argument \\
-                        \pause & $\searrow$ & \\
-                        & & evaluating argument
+                        \onslide<2->{ & $\searrow$ & \\
+                                      & & coherence checking; \\ & & epistemic vigilance \\}
+                        \onslide<3->{ & $\swarrow$ \\
+                        coherence display: \\ producing argument \\}
+                        \onslide<4->{ & $\searrow$ & \\
+                                      & & evaluating argument}
     \end{tabular}
+
+    \vfill
+
+    \hfill \footnotesize{\citep{Sperber01, Sperber10}}
 \end{frame}
 
 \section{The argumentative theory of reasoning}
@@ -220,8 +253,8 @@
     \begin{itemize}
         \item Empirical support
             \begin{itemize}
-                \item Reasoning performance in argumentative settings
-                \item Explanation of confirmation bias and motivated reasoning
+                \item Reasoning performs its function well: argumentation
+                \item Explaining cognitive biases: confirmation bias
             \end{itemize}
     \end{itemize}
 \end{frame}
@@ -236,12 +269,11 @@
     % * some other minor takeaways in tomasello's work
     % * perhaps some ideas about lying
     \begin{itemize}
-        \item Michael Tomasello
         \item Communication facilitates cooperation
         \item Function of cooperation
             \begin{itemize}
                 \item Protection against predation
-                \item Food sharing and shared labor in hunting and gathering
+                \item Food sharing and shared labor
                 \item Cooperative breeding
             \end{itemize}
         \item Evolution of human cooperation
@@ -256,6 +288,10 @@
                     % \end{itemize}
             \end{itemize}
     \end{itemize}
+
+    \vfill
+
+    \hfill \footnotesize{\citep{Tomasello09}}
 \end{frame}
 
 \section{Criticizing the ATR}
@@ -280,7 +316,7 @@
 
 \begin{frame}{Selected bibliography}
     % \small
-    \nocite{Scott-Phillips08, MS11, Tomasello09, Sperber01, Sperber10}
+    \nocite{Scott-Phillips08, MS11, Tomasello09, Sperber01, Sperber10, Ayala99}
     % \nocite{Dor17}
     \printbibliography
 \end{frame}
